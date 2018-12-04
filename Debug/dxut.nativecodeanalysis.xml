@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXFLOAT16::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXFLOAT16@@QAE@XZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@XZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@XZ</DECORATED>
+    <FUNCLINE>475</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.h</FILENAME>
+      <LINE>516</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@XZ</DECORATED>
+    <FUNCLINE>516</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXFLOAT16::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXFLOAT16@@QAE@M@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXFLOAT16::value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXFLOAT16::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXFLOAT16@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR2::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR2::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR2@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>517</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXVECTOR4::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXVECTOR4::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXVECTOR4@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::w' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXQUATERNION::z' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXQUATERNION::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXQUATERNION@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::d' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1241</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXPLANE::c' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXPLANE::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXPLANE@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1241</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>d3dx9math.inl</FILENAME>
+      <LINE>1376</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'D3DXCOLOR::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>D3DXCOLOR::{ctor}</FUNCTION>
+    <DECORATED>??0D3DXCOLOR@@QAE@PBUD3DXFLOAT16@@@Z</DECORATED>
+    <FUNCLINE>1376</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>309</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'DXUTState::m_state' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>DXUTState::{ctor}</FUNCTION>
+    <DECORATED>??0DXUTState@@QAE@XZ</DECORATED>
+    <FUNCLINE>309</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'InitializeCriticalSectionAndSpinCount'.</DESCRIPTION>
+    <FUNCTION>DXUTState::Create</FUNCTION>
+    <DECORATED>?Create@DXUTState@@QAEXXZ</DECORATED>
+    <FUNCLINE>312</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>1051</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>'DXUTIsNextArg'에 대한 주석이 일치하지 않습니다. 이 인스턴스에는 주석 없음이(가) 있습니다. d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\dxut.cpp(612)을(를) 참조하십시오. </DESCRIPTION>
+    <FUNCTION>DXUTIsNextArg</FUNCTION>
+    <DECORATED>?DXUTIsNextArg@@YA_NAAPA_WPB_W@Z</DECORATED>
+    <FUNCLINE>1051</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>1073</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>'DXUTGetCmdParam'에 대한 주석이 일치하지 않습니다. 이 인스턴스에는 주석 없음이(가) 있습니다. d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\dxut.cpp(613)을(를) 참조하십시오. </DESCRIPTION>
+    <FUNCTION>DXUTGetCmdParam</FUNCTION>
+    <DECORATED>?DXUTGetCmdParam@@YA_NAAPA_WPA_W@Z</DECORATED>
+    <FUNCLINE>1073</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>1080</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>'strFlag'에 쓰는 동안 버퍼 오버런이 발생했습니다.  쓰기 가능한 크기는 '1*2'바이트인데 실제로는 '520'바이트만 쓸 수 있습니다.</DESCRIPTION>
+    <FUNCTION>DXUTGetCmdParam</FUNCTION>
+    <DECORATED>?DXUTGetCmdParam@@YA_NAAPA_WPA_W@Z</DECORATED>
+    <FUNCLINE>1073</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>1073</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'strFlag'이(가) 1 요소의 배열입니다(2바이트).</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>1075</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 시작, ('*strCmdLine==58' 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>1077</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>1080</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'strFlag'은(는) 'wcscpy_s'(c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_wstring.h:35에서 선언됨)에 대한 In/Out 인수입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>1080</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'strFlag[259]'에 쓰기가 잘못됨, (쓰기 가능한 범위는 0에서 0 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>4961</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'IsWindows*'을(를) 'GetVersionExW' 대신 사용하십시오. 이유: Deprecated. Use VerifyVersionInfo* or IsWindows* macros from VersionHelpers.</DESCRIPTION>
+    <FUNCTION>DXUTAllowShortcutKeys</FUNCTION>
+    <DECORATED>?DXUTAllowShortcutKeys@@YAX_N@Z</DECORATED>
+    <FUNCLINE>4931</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxut.cpp</FILENAME>
+      <LINE>5638</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(2)'이(가) '0'일 수 있습니다.  이 경우 'IDXGISwapChain::GetFullscreenState' 함수의 사양과 일치하지 않습니다. </DESCRIPTION>
+    <FUNCTION>DXUTCheckForDXGIBufferChange</FUNCTION>
+    <DECORATED>?DXUTCheckForDXGIBufferChange@@YAXXZ</DECORATED>
+    <FUNCLINE>5630</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>5632</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>5634</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>5637</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+        <FILENAME>dxut.cpp</FILENAME>
+        <LINE>5638</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

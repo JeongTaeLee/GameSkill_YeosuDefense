@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\optional\</FILEPATH>
+      <FILENAME>dxutsettingsdlg.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CD3DSettingsDlg::m_nRevertModeTimeout' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CD3DSettingsDlg::{ctor}</FUNCTION>
+    <DECORATED>??0CD3DSettingsDlg@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\optional\</FILEPATH>
+      <FILENAME>dxutsettingsdlg.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CD3DSettingsDlg::m_pStateBlock10' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CD3DSettingsDlg::{ctor}</FUNCTION>
+    <DECORATED>??0CD3DSettingsDlg@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\optional\</FILEPATH>
+      <FILENAME>dxutsettingsdlg.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CD3DSettingsDlg::m_nIDEvent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CD3DSettingsDlg::{ctor}</FUNCTION>
+    <DECORATED>??0CD3DSettingsDlg@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

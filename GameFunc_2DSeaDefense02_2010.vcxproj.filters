@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{cd64b7c3-fb28-4e59-b96e-5653064f33c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{899c37eb-02cf-4f3a-b59d-96106285aadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{19c12f38-ee97-4157-b57c-d217ea164e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ImageManager">
+      <UniqueIdentifier>{85f04807-48f2-4f30-8e1c-1bb081137a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\InputManager">
+      <UniqueIdentifier>{4898ca34-c4bf-4a2e-bbf1-5e18d94e74ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CameraManager">
+      <UniqueIdentifier>{3f84a7b8-456a-4a84-8cc1-41260b9f54b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{fda35d30-3352-4101-8fe7-fb22c875d40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Component">
+      <UniqueIdentifier>{1515af99-3ab6-4260-84ac-8b52dc625043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject">
+      <UniqueIdentifier>{a6ba1b9d-995b-4314-854d-c165b4e4684a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\transform">
+      <UniqueIdentifier>{f1129b92-9cc4-482b-8ff3-06c23181f9c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjectManager">
+      <UniqueIdentifier>{62e814fe-3314-4a18-8a72-e887fbba67a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{4a34abf2-7308-411d-8dd4-9d90b9b548f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Ingame">
+      <UniqueIdentifier>{7d122e3e-5a2f-4e62-bcef-4069dd425374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{9bd67455-0d1d-47e7-8566-6db3b69d58ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{670749a7-c7cb-48ff-a4e3-43a5f3ecf80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{f1c9911e-e495-4d61-89af-6a0d88df7f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\StageManager">
+      <UniqueIdentifier>{ec415271-e81d-4f9c-937f-db0aa06164ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Tile">
+      <UniqueIdentifier>{982e2333-2809-4a1f-b112-b3e92d32f75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Collider">
+      <UniqueIdentifier>{870bd5f9-6e8f-4d6f-a20a-114faf62febe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cannon">
+      <UniqueIdentifier>{08ad169c-2d92-4fba-a65e-58a288ef0a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Button">
+      <UniqueIdentifier>{303b0b97-8742-4139-89dc-367ec2fa4daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animater">
+      <UniqueIdentifier>{d4c228f2-b4d1-44c7-9a74-2131326b2c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cannon\Cannon01">
+      <UniqueIdentifier>{b326a930-fe8a-4102-93e3-a7b39ea4c050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LoadScene">
+      <UniqueIdentifier>{64fbd94a-5eeb-4274-ab84-edee05af4f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\IngameManager">
+      <UniqueIdentifier>{baa2dfe7-b38a-4184-be03-42f832543526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster">
+      <UniqueIdentifier>{6f6b2506-bdf7-46f2-9185-5530fbec9c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{a14d9ffe-f381-444e-b46f-f7f1d1229a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\ClamBullet">
+      <UniqueIdentifier>{4464407b-3f48-400a-b297-13e366ee6378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Effect">
+      <UniqueIdentifier>{18f537b6-8e56-4a68-9872-54dc4741025c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\Map01">
+      <UniqueIdentifier>{3841c8fe-7b4b-4f13-b72c-05b7a30c7a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\Map02">
+      <UniqueIdentifier>{7f4f09e3-4873-48ff-ac46-3077207d2b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\Map03">
+      <UniqueIdentifier>{7d292ddc-8a17-44dc-9022-b5e2625d13e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cannon\Cannon02">
+      <UniqueIdentifier>{261a15c2-8437-4744-8fcd-eb9a0f00c91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\LBullet">
+      <UniqueIdentifier>{7e58bf12-58cc-4273-bf2b-35310f083740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\PickMonster">
+      <UniqueIdentifier>{54da0be3-9520-4a41-bf3f-a6573ab80795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Cannon\Cannon03">
+      <UniqueIdentifier>{4f8e6f1d-4fec-4428-9ddc-f793df2e878d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Hac">
+      <UniqueIdentifier>{8c7b7492-2523-436a-b187-893b2bacd2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster\Boss">
+      <UniqueIdentifier>{46d63a0f-ca4b-4cce-a37e-e0fbcc469e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\MBullet">
+      <UniqueIdentifier>{939bf99a-fdc7-4ee3-8160-05059b4e439d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\HpBar">
+      <UniqueIdentifier>{4b318146-5261-4bb6-879a-a6d76ec7816b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Slow">
+      <UniqueIdentifier>{406e700a-e2c6-4701-a15f-229bb8e2d84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\NumUI">
+      <UniqueIdentifier>{9c34acad-16aa-45cc-9857-63a8f5e1797d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Stop">
+      <UniqueIdentifier>{f9d17294-f440-4d96-a84a-b33ca968935e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Victory">
+      <UniqueIdentifier>{499a89f5-cc01-428a-8178-54e86ba88a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\DEFEAT">
+      <UniqueIdentifier>{12052e59-3b45-4aed-86b3-12ba545e1e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\LoadingScreen">
+      <UniqueIdentifier>{7aa821a3-f31d-4ac3-bafd-97d855327ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\PopScreen">
+      <UniqueIdentifier>{9bf7b445-ade3-4363-a647-812232b2062b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\WaterBalloon">
+      <UniqueIdentifier>{1f583773-9238-4305-97a7-57a115f94819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\WaterBalloonCreater">
+      <UniqueIdentifier>{2f151666-6903-41df-b3f9-48357d300a8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFunc_2DSeaDefense02.cpp" />
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Manager\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Manager\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Core\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Core\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon.cpp">
+      <Filter>Object\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Core\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Animater.cpp">
+      <Filter>Core\Animater</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon01.cpp">
+      <Filter>Object\Cannon\Cannon01</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scene\LoadScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameManager.cpp">
+      <Filter>Manager\IngameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ClamBullet.cpp">
+      <Filter>Object\Bullet\ClamBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Core\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Map02.cpp">
+      <Filter>Object\Map\Map02</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Map03.cpp">
+      <Filter>Object\Map\Map03</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon02.cpp">
+      <Filter>Object\Cannon\Cannon02</Filter>
+    </ClCompile>
+    <ClCompile Include="LBullet.cpp">
+      <Filter>Object\Bullet\LBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PickCannon.cpp">
+      <Filter>Object\PickMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon03.cpp">
+      <Filter>Object\Cannon\Cannon03</Filter>
+    </ClCompile>
+    <ClCompile Include="Hac.cpp">
+      <Filter>Object\Hac</Filter>
+    </ClCompile>
+    <ClCompile Include="Map01.cpp">
+      <Filter>Object\Map\Map01</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MBullet.cpp">
+      <Filter>Object\Bullet\MBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBar.cpp">
+      <Filter>Object\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Slow.cpp">
+      <Filter>Object\Slow</Filter>
+    </ClCompile>
+    <ClCompile Include="NumUI.cpp">
+      <Filter>Object\NumUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Stop.cpp">
+      <Filter>Object\Stop</Filter>
+    </ClCompile>
+    <ClCompile Include="Victroy.cpp">
+      <Filter>Object\Victory</Filter>
+    </ClCompile>
+    <ClCompile Include="DEFEAT.cpp">
+      <Filter>Object\DEFEAT</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreen.cpp">
+      <Filter>Object\LoadingScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="PopScreen.cpp">
+      <Filter>Object\PopScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>Object\WaterBalloon</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleCreater.cpp">
+      <Filter>Object\WaterBalloonCreater</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Manager\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Manager\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Core\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Map01.h">
+      <Filter>Object\Map\Map01</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Core\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon.h">
+      <Filter>Object\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Core\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Animater.h">
+      <Filter>Core\Animater</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon01.h">
+      <Filter>Object\Cannon\Cannon01</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scene\LoadScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameManager.h">
+      <Filter>Manager\IngameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ClamBullet.h">
+      <Filter>Object\Bullet\ClamBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Core\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Map02.h">
+      <Filter>Object\Map\Map02</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Map03.h">
+      <Filter>Object\Map\Map03</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon02.h">
+      <Filter>Object\Cannon\Cannon02</Filter>
+    </ClInclude>
+    <ClInclude Include="LBullet.h">
+      <Filter>Object\Bullet\LBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PickCannon.h">
+      <Filter>Object\PickMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon03.h">
+      <Filter>Object\Cannon\Cannon03</Filter>
+    </ClInclude>
+    <ClInclude Include="Hac.h">
+      <Filter>Object\Hac</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MBullet.h">
+      <Filter>Object\Bullet\MBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBar.h">
+      <Filter>Object\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Slow.h">
+      <Filter>Object\Slow</Filter>
+    </ClInclude>
+    <ClInclude Include="NumUI.h">
+      <Filter>Object\NumUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Stop.h">
+      <Filter>Object\Stop</Filter>
+    </ClInclude>
+    <ClInclude Include="Victroy.h">
+      <Filter>Object\Victory</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFEAT.h">
+      <Filter>Object\DEFEAT</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScreen.h">
+      <Filter>Object\LoadingScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="PopScreen.h">
+      <Filter>Object\PopScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>Object\WaterBalloon</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleCreater.h">
+      <Filter>Object\WaterBalloonCreater</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="GameFunc_2DSeaDefense02.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rs\png\Mob01_Attack\MonsterA_Attack2_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

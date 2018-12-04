@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxutmisc.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CDXUTTimer::m_bUsingQPF' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CDXUTTimer::{ctor}</FUNCTION>
+    <DECORATED>??0CDXUTTimer@@QAE@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\dxut\core\</FILEPATH>
+      <FILENAME>dxutmisc.cpp</FILENAME>
+      <LINE>1263</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>'IsWindows*'을(를) 'GetVersionExA' 대신 사용하십시오. 이유: Deprecated. Use VerifyVersionInfo* or IsWindows* macros from VersionHelpers.</DESCRIPTION>
+    <FUNCTION>DXUTGetMonitorInfo</FUNCTION>
+    <DECORATED>?DXUTGetMonitorInfo@@YGHPAUHMONITOR__@@PAUtagMONITORINFO@@@Z</DECORATED>
+    <FUNCLINE>1252</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

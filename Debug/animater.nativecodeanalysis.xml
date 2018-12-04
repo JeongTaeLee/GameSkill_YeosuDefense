@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\</FILEPATH>
+      <FILENAME>animater.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Animater::bStop' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Animater::{ctor}</FUNCTION>
+    <DECORATED>??0Animater@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

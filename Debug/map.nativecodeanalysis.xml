@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\</FILEPATH>
+      <FILENAME>map.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Map::tileArray' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Map::{ctor}</FUNCTION>
+    <DECORATED>??0Map@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\</FILEPATH>
+      <FILENAME>map.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Map::Accrue' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Map::{ctor}</FUNCTION>
+    <DECORATED>??0Map@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\[development]\nowproject\gamefunc_2dseadefense02\</FILEPATH>
+      <FILENAME>map.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Map::Delay' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Map::{ctor}</FUNCTION>
+    <DECORATED>??0Map@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
