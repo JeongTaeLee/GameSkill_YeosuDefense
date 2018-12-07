@@ -1,8 +1,0 @@
-﻿  GameFunc_2DSeaDefense02.cpp
-d:\[development]\nowproject\gamefunc_2dseadefense02\gamefunc_2dseadefense02.cpp(132): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-d:\[development]\nowproject\gamefunc_2dseadefense02\gamefunc_2dseadefense02.cpp(133): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-d:\[development]\nowproject\gamefunc_2dseadefense02\gamefunc_2dseadefense02.cpp(134): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(243): note: 'freopen' 선언을 참조하십시오.
-  GameFunc_2DSeaDefense02_2010.vcxproj -> D:\[Development]\NowProject\GameFunc_2DSeaDefense02\Debug\GameFunc_2DSeaDefense02.exe
