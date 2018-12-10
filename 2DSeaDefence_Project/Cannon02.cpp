@@ -59,6 +59,8 @@ void Cannon02::Attack(float Et)
 		bullet->tf->pos = Pos;
 		bullet->tf->rot = atan2f(vDir.y, vDir.x);
 	}
+	
+	SOUND.Play("LEffect");
 
 	monster->SetStun();
 	monster->HitBullet(fDamage);
@@ -90,6 +92,5 @@ void Cannon02::Upgrade()
 
 		fRgn = (float)CANNON02_3_R;
 		fDamage = (float)CANNON02_3_A;
-
 	}
 }

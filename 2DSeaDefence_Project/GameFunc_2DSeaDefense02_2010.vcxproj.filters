@@ -159,6 +159,9 @@
     <Filter Include="Object\WaterBalloonCreater">
       <UniqueIdentifier>{2f151666-6903-41df-b3f9-48357d300a8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Manager\SoundManager">
+      <UniqueIdentifier>{4a243327-8733-4f38-8389-19b7709d3a2d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -359,6 +362,9 @@
     <ClCompile Include="BubbleCreater.cpp">
       <Filter>Object\WaterBalloonCreater</Filter>
     </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Manager\SoundManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -502,6 +508,9 @@
     </ClInclude>
     <ClInclude Include="BubbleCreater.h">
       <Filter>Object\WaterBalloonCreater</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Manager\SoundManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -3,11 +3,30 @@
 #include "Monster.h"
 
 Cannon::Cannon()
-	:bInstall(false), monster(nullptr), fRgn(0.f), fAttackDelay(0.f), fAttackAccrues(0.f), fDamage(0.f), bAttack(false), level(E_CANNONLEVEL_1)
-	, iUpgradeCost(0)
 {
 	sTag = "Cannon";
 	iRenderingSort = INGAME01;
+
+	monster = nullptr;
+
+	renderer = nullptr;
+	animater = nullptr;
+	collider = nullptr;
+
+	level		= E_CANNONLEVEL_1;
+	
+	bInstall	= false;
+	fRgn		= 0;
+
+	fAttackDelay	 = 0.f;
+	fAttackAccrues	 = 0.f;
+	fDamage			 = 0.f;
+
+	fAttackIndex = 0.f;
+
+	bAttack = false;
+
+	iUpgradeCost = 0;
 }
 
 
@@ -76,6 +95,7 @@ void Cannon::Receive(cstr str)
 	if (str == "EndAnimation")
 	{
 		animater->Stop(0);
+		bAttack = false;
 	}
 }
 
@@ -155,6 +175,8 @@ void Cannon::LevelUp()
 
 	animater->Play(aniname);
 	animater->Stop(0);
+
+	bAttack = false;
 }
 
 void Cannon::AddAni(cstr aniKey, cstr key, cstr path, int mn, int mx)

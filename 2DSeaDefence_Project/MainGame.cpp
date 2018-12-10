@@ -31,6 +31,7 @@ void MainGame::Release()
 	CameraManager::ReleaseInst();
 	InputManager::ReleaseInst();
 	IngameManager::ReleaseInst();
+	SoundManager::ReleaseInst();
 }
 
 void MainGame::Update()

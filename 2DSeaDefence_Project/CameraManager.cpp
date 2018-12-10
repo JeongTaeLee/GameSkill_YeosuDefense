@@ -3,6 +3,7 @@
 
 
 CameraManager::CameraManager()
+	:vScroll(0.f, 0.f)
 {
 	vEyePos		= Vector2((float)WINSIZEX / 2, (float)WINSIZEY / 2);
 	vEyeSize	= Vector2((float)WINSIZEX, (float)WINSIZEY);

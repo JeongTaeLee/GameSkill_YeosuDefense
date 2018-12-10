@@ -425,6 +425,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Slow.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="Stop.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="transform.cpp" />
@@ -472,6 +473,7 @@
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="singleton.h" />
     <ClInclude Include="Slow.h" />
+    <ClInclude Include="SoundManager.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Stop.h" />
     <ClInclude Include="Tile.h" />

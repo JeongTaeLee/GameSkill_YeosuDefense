@@ -130,7 +130,7 @@ INT WINAPI wWinMain( HINSTANCE, HINSTANCE, LPWSTR, int )
 	AllocConsole();
 
 	freopen("CONIN$", "rb", stdin);
-	freopen("CONOUT$", "wb", stdout);
+	freopen("CONOUT$", "wb", stdout); 
 	freopen("CONOUT$", "wb", stderr);
 #endif
 
@@ -152,7 +152,7 @@ INT WINAPI wWinMain( HINSTANCE, HINSTANCE, LPWSTR, int )
     DXUTSetHotkeyHandling( true, false, true );  // handle the default hotkeys
     DXUTSetCursorSettings( true, true ); // Show the cursor and clip it when in full screen
     DXUTCreateWindow( L"GameFunc_2DSeaDefense02" );
-    DXUTCreateDevice( false, WINSIZEX, WINSIZEY);
+	DXUTCreateDevice(false , WINSIZEX, WINSIZEY);
 
     // Start the render loop
     DXUTMainLoop();

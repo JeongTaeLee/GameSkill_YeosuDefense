@@ -15,9 +15,25 @@
 #include "DEFEAT.h"
 
 IngameManager::IngameManager()
-	:bOnCannon(false), stage(STAGE_01), cannon(nullptr), iGold(2000), iMp(400), iScore(0), bStop(false), bTime(false), bGameEnd(false),
-	iNowWave(1), fNowTime(0.f), bLoadingComplete(false)
 {
+	stage = STAGE_01;
+	cannon = nullptr;
+
+	iScore = 0;
+	iGold = 2000;
+	iMp = 400;
+
+	bOnCannon = false;
+
+	bStop = false;
+	bTime = false;
+
+	bGameEnd = false;
+	bLoadingComplete = false;
+	
+	iNowWave = 1;
+
+	fNowTime = 0.f;
 }
 
 

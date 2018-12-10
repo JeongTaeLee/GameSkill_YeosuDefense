@@ -3,6 +3,7 @@
 
 
 InputManager::InputManager()
+	:vMousePos(0.f, 0.f)
 {
 	memset(nowKey, false, sizeof(bool) * 256);
 	memset(oldKey, false, sizeof(bool) * 256);
@@ -22,19 +23,19 @@ void InputManager::Update()
 		nowKey[i] = GetAsyncKeyState(i);
 }
 
-const Vector2 & InputManager::GetMousePos()
+const Vector2 InputManager::GetMousePos()
 {
-	POINT p;
+	POINT p = { 0 };
 	GetCursorPos(&p);
 	ScreenToClient(DXUTGetHWND(), &p);
-	
-	return Vector2(p.x, p.y);
+
+	return Vector2((float)p.x, (float)p.y);
 }
 
-const Vector2 & InputManager::GetScrollPos()
+const Vector2 InputManager::GetScrollPos()
 {
 	Vector2 mousePos = GetMousePos();
+
 	mousePos -= CAMERA.GetScoll();
 	return mousePos;
-	// TODO: 여기에 반환 구문을 삽입합니다.
 }

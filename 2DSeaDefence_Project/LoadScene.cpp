@@ -33,6 +33,8 @@ void LoadScene::Init()
 		screen->SetChangeScreen();
 	}
 
+	SOUND.PlayBackGround("./rs/wav/Loading_BackGround.wav");
+
 	CAMERA.Update();
 }
 
@@ -63,6 +65,8 @@ void LoadScene::Update(float Et)
 		if (thread04.joinable())
 			thread04.join();
 
+		
+		
 		CreateButton = true;
 		screen->SetChangeScreen();
 	}
@@ -100,6 +104,8 @@ void LoadScene::Thread01()
 	IMAGE.AddTextures("Mob01_RWalk%d", "./rs/png/Mob01_Walk/MonsterA_Walk7_%d.png", 1, 10);
 	IMAGE.AddTextures("Mob01_DRWalk%d", "./rs/png/Mob01_Walk/MonsterA_Walk8_%d.png", 1, 10);
 	IMAGE.AddTextures("Mob01_Attack%d", "./rs/png/Mob01_Attack/MonsterA_Attack6_%d.png", 1, 10);
+
+	SOUND.AddSound("LEffect", "./rs/wav/LBulletEffect.wav", SoundFileType::E_WAV);
 
 	bThread01 = true;
 }

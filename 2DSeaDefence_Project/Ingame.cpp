@@ -86,7 +86,7 @@ Ingame::~Ingame()
 
 void Ingame::Init()
 {
-
+	SOUND.PlayBackGround("./rs/wav/Ingame_BackGround.wav");
 	INGAME.CreateMap();
 
 	CreateUI();
@@ -105,6 +105,11 @@ void Ingame::Update(float Et)
 		fManaAccrue = 0.f;
 		INGAME.AddMp(10);
 	}
+
+	if (KEYDOWN(VK_F1))
+		INGAME.AddGold(200);
+	if (KEYDOWN(VK_F2))
+		INGAME.ClearStage();
 
 	CAMERA.Update();
 	OBJECT.Update(INGAME.GetETime());
